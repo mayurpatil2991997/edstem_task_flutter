@@ -23,7 +23,6 @@ class _HouseHoldsWidgetState extends State<HouseHoldsWidget> {
   Future readJson() async {
     final String response = await rootBundle.loadString('assets/sample.json');
     final data = await json.decode(response);
-    print("fnjdnfjngfd $data");
     setState(() {
       _items = data["items"];
     });

@@ -23,7 +23,6 @@ class _BirthDayWidgetState extends State<BirthDayWidget> {
   Future readJson() async {
     final String response = await rootBundle.loadString('assets/birthday.json');
     final data = await json.decode(response);
-    print("fnjdnfjngfd $data");
     setState(() {
       _items = data["items"];
     });
@@ -62,7 +61,7 @@ class _BirthDayWidgetState extends State<BirthDayWidget> {
                 TextWidget(
                   userName: "Wedding Anniversary",
                   family: "Playfair Display SC",
-                  textColor: Color.fromRGBO(53, 61, 101, 10),
+                  textColor: Colors.grey,
                   fontWeight: FontWeight.bold,
                   textSize: 14.0,
                 ),

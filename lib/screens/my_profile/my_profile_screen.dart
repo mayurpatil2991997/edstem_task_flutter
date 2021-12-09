@@ -1,5 +1,6 @@
 import 'package:edstem_demo_project/widgets/appbar/app_bar_widgets.dart';
 import 'package:edstem_demo_project/widgets/birthday/birthday_widget.dart';
+import 'package:edstem_demo_project/widgets/drawer/drawer_widget.dart';
 import 'package:edstem_demo_project/widgets/house_holds/house_holds_widget.dart';
 import 'package:edstem_demo_project/widgets/social_icon_container/social_icon_container_widget.dart';
 import 'package:edstem_demo_project/widgets/user_details/user_details_widget.dart';
@@ -22,6 +23,7 @@ class _MyProfileScreenState extends State<MyProfileScreen> {
         preferredSize: Size.fromHeight(100.0),
         child: AppBarWidget(),
       ),
+      drawer: const CustomDrawer(),
       body: SingleChildScrollView(
         child: Column(
           children: const [

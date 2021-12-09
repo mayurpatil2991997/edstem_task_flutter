@@ -37,5 +37,7 @@ flutter:
   - assets/images/whatsapp.png
   - assets/images/location.png
   - assets/images/line.png
+  - assets/images/membership.png
+  - assets/images/editProfile.png
   - assets/sample.json
   - assets/birthday.json
