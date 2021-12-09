@@ -21,6 +21,9 @@ class _MyProfileScreenState extends State<MyProfileScreen> {
       backgroundColor: Colors.white,
       appBar: const PreferredSize(
         preferredSize: Size.fromHeight(100.0),
+
+        // Custom app bar
+
         child: AppBarWidget(),
       ),
       drawer: const CustomDrawer(),
