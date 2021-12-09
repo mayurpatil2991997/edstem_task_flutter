@@ -21,9 +21,12 @@ class _UserImageWidgetState extends State<UserImageWidget> {
             color: Colors.grey,
             borderRadius: BorderRadius.circular(70.0),
           ),
-          child: Image.asset(
-            'assets/images/face.png',
-            // fit: BoxFit.contain,
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(70),
+            child: Image.asset(
+              'assets/images/face.png',
+              // fit: BoxFit.contain,
+            ),
           ),
         ),
         const TextWidget(
