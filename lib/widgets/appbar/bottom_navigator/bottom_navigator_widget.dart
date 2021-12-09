@@ -63,7 +63,7 @@ class _BottomNavigatorWidgetState extends State<BottomNavigatorWidget> {
           ),
         ],
         currentIndex: selectedIndex,
-        selectedItemColor: Colors.blue,
+        selectedItemColor: Colors.red,
         onTap: _onItemTapped,
       ),
     );
