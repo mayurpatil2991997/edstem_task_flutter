@@ -13,20 +13,34 @@ class _UserImageWidgetState extends State<UserImageWidget> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Container(
-          margin: const EdgeInsets.all(10.0),
-          height: 110.0,
-          width: 110.0,
-          decoration: BoxDecoration(
-            color: Colors.grey,
-            borderRadius: BorderRadius.circular(70.0),
-          ),
-          child: ClipRRect(
-            borderRadius: BorderRadius.circular(70),
-            child: Image.asset(
-              'assets/images/face.png',
-              // fit: BoxFit.contain,
-            ),
+        Padding(
+          padding: const EdgeInsets.only(left: 110.0),
+          child: Row(
+            children: [
+              Container(
+                margin: const EdgeInsets.all(10.0),
+                height: 110.0,
+                width: 110.0,
+                decoration: BoxDecoration(
+                  color: Colors.grey,
+                  borderRadius: BorderRadius.circular(70.0),
+                ),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(70),
+                  child: Image.asset(
+                    'assets/images/face.png',
+                    // fit: BoxFit.contain,
+                  ),
+                ),
+              ),
+              const SizedBox(
+                width: 50.0,
+              ),
+              Image.asset(
+                "assets/images/edit.png",
+                fit: BoxFit.fill,
+              ),
+            ],
           ),
         ),
         const TextWidget(
