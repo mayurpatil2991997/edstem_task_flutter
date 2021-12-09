@@ -1,15 +1,23 @@
+import 'package:edstem_demo_project/widgets/appbar/app_bar_widgets.dart';
 import 'package:flutter/material.dart';
 
-class MyProfile extends StatefulWidget {
-  const MyProfile({Key? key}) : super(key: key);
+class MyProfileScreen extends StatefulWidget {
+  const MyProfileScreen({Key? key}) : super(key: key);
 
   @override
-  _MyProfileState createState() => _MyProfileState();
+  _MyProfileScreenState createState() => _MyProfileScreenState();
 }
 
-class _MyProfileState extends State<MyProfile> {
+class _MyProfileScreenState extends State<MyProfileScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: const PreferredSize(
+        preferredSize: Size.fromHeight(100.0),
+        child: AppBarWidget(),
+      ),
+      body: Container(),
+    );
   }
 }
