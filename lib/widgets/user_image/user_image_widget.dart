@@ -33,6 +33,52 @@ class _UserImageWidgetState extends State<UserImageWidget> {
           textSize: 24.0,
           textColor: Color.fromRGBO(53, 61, 101, 10),
         ),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 50.0,vertical: 2.0),
+          child: Row(
+            // mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: [
+              const TextWidget(
+                family: "Archivo",
+                userName: "Peral Land East",
+                fontWeight: FontWeight.normal,
+                textSize: 12.0,
+                textColor: Color.fromRGBO(118, 124, 156, 10),
+              ),
+              const SizedBox(
+                width: 14.0,
+              ),
+              Image.asset(
+                "assets/images/rectangle.png",
+                fit: BoxFit.fill,
+              ),
+              const SizedBox(
+                width: 14.0,
+              ),
+              const TextWidget(
+                family: "Archivo",
+                userName: "#56566",
+                fontWeight: FontWeight.normal,
+                textSize: 12.0,
+                textColor: Color.fromRGBO(118, 124, 156, 10),
+              ),
+              const SizedBox(
+                width: 14.0,
+              ),
+              Image.asset("assets/images/rectangle.png"),
+              const SizedBox(
+                width: 14.0,
+              ),
+              const TextWidget(
+                family: "Archivo",
+                userName: "Male",
+                fontWeight: FontWeight.normal,
+                textSize: 12.0,
+                textColor: Color.fromRGBO(118, 124, 156, 10),
+              ),
+            ],
+          ),
+        ),
       ],
     );
   }
