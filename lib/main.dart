@@ -1,4 +1,5 @@
-import 'package:edstem_demo_project/screens/my_profile_screen.dart';
+import 'package:edstem_demo_project/screens/home/home_screen.dart';
+import 'package:edstem_demo_project/screens/home/my_profile/my_profile_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyProfileScreen(),
+      home: const HomeScreen(),
     );
   }
 }
