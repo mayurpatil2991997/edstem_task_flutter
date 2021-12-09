@@ -11,6 +11,8 @@ class CustomDrawer extends StatefulWidget {
 }
 class _CustomDrawerState extends State<CustomDrawer> {
 
+  // Custom Drawer Widget
+
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;

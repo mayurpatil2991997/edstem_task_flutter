@@ -24,6 +24,8 @@ class _BottomNavigatorWidgetState extends State<BottomNavigatorWidget> {
     });
   }
 
+  // Bottom Navigator
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

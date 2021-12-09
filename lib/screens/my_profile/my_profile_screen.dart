@@ -27,7 +27,12 @@ class _MyProfileScreenState extends State<MyProfileScreen> {
       body: SingleChildScrollView(
         child: Column(
           children: const [
+            // User Profile Widget
+
             UserImageWidget(),
+
+            // Social All Side Widgets
+
             SocialImageContainerWidget(
               height: 30.0,
               width: 30.0,
@@ -37,15 +42,23 @@ class _MyProfileScreenState extends State<MyProfileScreen> {
             SizedBox(
               height: 20.0,
             ),
+            // User Details Widget
+
             UserDetailsWidget(),
             SizedBox(
               height: 20.0,
             ),
+
+            // House Holds Widget.
+
             HouseHoldsWidget(),
             SizedBox(
               height: 10.0,
             ),
+
+            // Birthday Widget
             BirthDayWidget(),
+
             SizedBox(
               height: 10.0,
             ),

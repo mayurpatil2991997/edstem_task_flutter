@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:edstem_demo_project/widgets/text/text_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -61,6 +60,8 @@ class _HouseHoldsWidgetState extends State<HouseHoldsWidget> {
               // fit: BoxFit.contain,
             ),
           ),
+
+          // Data List of House Holds
           _items.isNotEmpty ? Expanded(
             child: ListView.builder(
             itemCount: _items.length,
