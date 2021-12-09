@@ -1,6 +1,6 @@
-import 'package:edstem_demo_project/widgets/appbar/bottom_navigator/bottom_navigator_widget.dart';
+import 'package:edstem_demo_project/widgets/bottom_navigator/bottom_navigator_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
 

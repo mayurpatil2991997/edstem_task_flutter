@@ -1,4 +1,4 @@
-import 'package:edstem_demo_project/screens/home/my_profile/my_profile_screen.dart';
+import 'package:edstem_demo_project/screens/my_profile/my_profile_screen.dart';
 import 'package:flutter/material.dart';
 
 class BottomNavigatorWidget extends StatefulWidget {
